@@ -1,208 +1,282 @@
 import React from "react";
 
-const PL2 = () => {
+const PL2 = ({ flags, setFlags }) => {
+  const choiceColor1 = (type) => {
+    if (type === 0 || type === 1)
+      return (
+        <td>
+          <>101</>
+        </td>
+      );
+    else if (type === 2)
+      return (
+        <td id="handChange2">
+          <>101</>
+        </td>
+      );
+    else
+      return (
+        <td id="handChange1">
+          <>101</>
+        </td>
+      );
+  };
+
+  const choiceColor2 = (type) => {
+    if (type === 0 || type === 1)
+      return (
+        <td>
+          <>101</>
+        </td>
+      );
+    else if (type === 2)
+      return (
+        <td id="handChange2">
+          <>101</>
+        </td>
+      );
+    else
+      return (
+        <td id="handChange1">
+          <>101</>
+        </td>
+      );
+  };
+
+  const choiceColor3 = (type) => {
+    if (type === 0 || type === 1)
+      return (
+        <td>
+          <>101</>
+        </td>
+      );
+    else if (type === 2)
+      return (
+        <td id="handChange2">
+          <>101</>
+        </td>
+      );
+    else
+      return (
+        <td id="handChange1">
+          <>101</>
+        </td>
+      );
+  };
+
+  const choiceColor4 = (type) => {
+    if (type === 0 || type === 1)
+      return (
+        <td>
+          <>101</>
+        </td>
+      );
+    else if (type === 2)
+      return (
+        <td id="handChange2">
+          <>101</>
+        </td>
+      );
+    else
+      return (
+        <td id="handChange1">
+          <>101</>
+        </td>
+      );
+  };
   return (
-    <div>
-      <h1>pl 그래프 들어갈곳</h1>
-      <table border="1">
+    <div className="tableDiv">
+      <table className="handTable" border="1">
         <tr>
+          {choiceColor1(flags["flag1"])}
           <td>
-            <>1</>
+            <>102</>
           </td>
           <td>
-            <>2</>
+            <>103</>
           </td>
           <td>
-            <>3</>
+            <>104</>
           </td>
           <td>
-            <>4</>
+            <>105</>
           </td>
           <td>
-            <>5</>
+            <>106</>
+          </td>
+        </tr>
+        <tr>
+          {choiceColor2(flags["flag2"])}
+          <td>
+            <>202</>
           </td>
           <td>
-            <>6</>
+            <>203</>
+          </td>
+          <td>
+            <>204</>
+          </td>
+          <td>
+            <>205</>
+          </td>
+          <td>
+            <>206</>
+          </td>
+        </tr>
+        <tr>
+          {choiceColor3(flags["flag3"])}
+          <td>
+            <>302</>
+          </td>
+          <td>
+            <>303</>
+          </td>
+          <td>
+            <>304</>
+          </td>
+          <td>
+            <>305</>
+          </td>
+          <td>
+            <>306</>
+          </td>
+        </tr>
+        <tr>
+          {choiceColor4(flags["flag4"])}
+          <td>
+            <>402</>
+          </td>
+          <td>
+            <>403</>
+          </td>
+          <td>
+            <>404</>
+          </td>
+          <td>
+            <>405</>
+          </td>
+          <td>
+            <>406</>
           </td>
         </tr>
         <tr>
           <td>
-            <>1</>
+            <>501</>
           </td>
           <td>
-            <>2</>
+            <>502</>
           </td>
           <td>
-            <>3</>
+            <>503</>
           </td>
           <td>
-            <>4</>
+            <>504</>
           </td>
           <td>
-            <>5</>
+            <>505</>
           </td>
           <td>
-            <>6</>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <>1</>
-          </td>
-          <td>
-            <>2</>
-          </td>
-          <td>
-            <>3</>
-          </td>
-          <td>
-            <>4</>
-          </td>
-          <td>
-            <>5</>
-          </td>
-          <td>
-            <>6</>
+            <>506</>
           </td>
         </tr>
         <tr>
           <td>
-            <>1</>
+            <>601</>
           </td>
           <td>
-            <>2</>
+            <>602</>
           </td>
           <td>
-            <>3</>
+            <>603</>
           </td>
           <td>
-            <>4</>
+            <>604</>
           </td>
           <td>
-            <>5</>
+            <>605</>
           </td>
           <td>
-            <>6</>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <>1</>
-          </td>
-          <td>
-            <>2</>
-          </td>
-          <td>
-            <>3</>
-          </td>
-          <td>
-            <>4</>
-          </td>
-          <td>
-            <>5</>
-          </td>
-          <td>
-            <>6</>
+            <>606</>
           </td>
         </tr>
         <tr>
           <td>
-            <>1</>
+            <>701</>
           </td>
           <td>
-            <>2</>
+            <>702</>
           </td>
           <td>
-            <>3</>
+            <>703</>
           </td>
           <td>
-            <>4</>
+            <>704</>
           </td>
           <td>
-            <>5</>
+            <>705</>
           </td>
           <td>
-            <>6</>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <>1</>
-          </td>
-          <td>
-            <>2</>
-          </td>
-          <td>
-            <>3</>
-          </td>
-          <td>
-            <>4</>
-          </td>
-          <td>
-            <>5</>
-          </td>
-          <td>
-            <>6</>
+            <>706</>
           </td>
         </tr>
         <tr>
           <td>
-            <>1</>
+            <>801</>
           </td>
           <td>
-            <>2</>
+            <>802</>
           </td>
           <td>
-            <>3</>
+            <>803</>
           </td>
           <td>
-            <>4</>
+            <>804</>
           </td>
           <td>
-            <>5</>
+            <>805</>
           </td>
           <td>
-            <>6</>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <>1</>
-          </td>
-          <td>
-            <>2</>
-          </td>
-          <td>
-            <>3</>
-          </td>
-          <td>
-            <>4</>
-          </td>
-          <td>
-            <>5</>
-          </td>
-          <td>
-            <>6</>
+            <>806</>
           </td>
         </tr>
         <tr>
           <td>
-            <>1</>
+            <>901</>
           </td>
           <td>
-            <>2</>
+            <>902</>
           </td>
           <td>
-            <>3</>
+            <>903</>
           </td>
           <td>
-            <>4</>
+            <>904</>
           </td>
           <td>
-            <>5</>
+            <>905</>
           </td>
           <td>
-            <>6</>
+            <>906</>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <>1001</>
+          </td>
+          <td>
+            <>1002</>
+          </td>
+          <td>
+            <>1003</>
+          </td>
+          <td>
+            <>1004</>
+          </td>
+          <td>
+            <>1005</>
+          </td>
+          <td>
+            <>1006</>
           </td>
         </tr>
       </table>

@@ -1,3 +1,72 @@
 .App {
   text-align: center;
 }
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.button {
+  border: none !important;
+  outline: 0 !important;
+}
+
+.Navigation ul {
+  margin-bottom: 0pt;
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navigation ul li {
+  background-color: rgba(0, 0, 255, 0.144);
+  border-radius: 20%;
+  float: left;
+  margin: 0px;
+  padding: 5px;
+  font-size: large;
+  color: blue;
+}
+
+.choiceTypeButton {
+  margin-top: 20px;
+  position: relative;
+  left: 37vw;
+}
+
+.chocieGation ul {
+  list-style: none;
+  margin-top: 20px;
+  position: relative;
+  left: 35vw;
+}
+
+.tableDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.hoistTable td {
+  background-color: rgba(212, 67, 67, 0.527);
+}
+
+#hoistChange {
+  background-color: rgba(0, 0, 255, 0.466);
+}
+
+.handTable td {
+  background-color: white;
+}
+
+#handChange1 {
+  background-color: rgba(0, 0, 255, 0.466);
+}
+
+#handChange2 {
+  background-color: rgba(212, 67, 67, 0.527);
+}

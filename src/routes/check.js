@@ -14,13 +14,13 @@ const Check = ({ flags, setFlags }) => {
   };
   return (
     <div>
-      <h1>공사체크 페이지</h1>
-
-      <button onClick={() => setToggle(!toggle)}>타입 선택하기</button>
+      <div className="choiceTypeButton">
+        <button onClick={() => setToggle(!toggle)}>공정 선택</button>
+      </div>
       {toggle ? (
-        <h1>타인 선택해주세요</h1>
+        <></>
       ) : (
-        <div>
+        <div className="chocieGation">
           <nav>
             <ul>
               <li onClick={() => setChoiceType(1)}>

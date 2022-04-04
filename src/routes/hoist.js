@@ -2,8 +2,7 @@ import React from "react";
 
 const Hoist = ({ flags, setFlags }) => {
   return (
-    <div>
-      <h1>호이스트 그래프 들어갈곳</h1>
+    <div className="tableDiv">
       <table border="1">
         <tr>
           <td>
@@ -15,24 +14,24 @@ const Hoist = ({ flags, setFlags }) => {
                 });
               }}
             >
-              1
+              101
             </button>
           </td>
 
           <td>
-            <button>2</button>
+            <button>102</button>
           </td>
           <td>
-            <button>3</button>
+            <button>103</button>
           </td>
           <td>
-            <button>4</button>
+            <button>104</button>
           </td>
           <td>
-            <button>5</button>
+            <button>105</button>
           </td>
           <td>
-            <button>6</button>
+            <button>106</button>
           </td>
         </tr>
         <tr>
@@ -45,23 +44,23 @@ const Hoist = ({ flags, setFlags }) => {
                 });
               }}
             >
-              1
+              201
             </button>
           </td>
           <td>
-            <button>2</button>
+            <button>202</button>
           </td>
           <td>
-            <button>3</button>
+            <button>203</button>
           </td>
           <td>
-            <button>4</button>
+            <button>204</button>
           </td>
           <td>
-            <button>5</button>
+            <button>205</button>
           </td>
           <td>
-            <button>6</button>
+            <button>206</button>
           </td>
         </tr>
         <tr>
@@ -74,23 +73,23 @@ const Hoist = ({ flags, setFlags }) => {
                 });
               }}
             >
-              1
+              301
             </button>
           </td>
           <td>
-            <button>2</button>
+            <button>302</button>
           </td>
           <td>
-            <button>3</button>
+            <button>303</button>
           </td>
           <td>
-            <button>4</button>
+            <button>304</button>
           </td>
           <td>
-            <button>5</button>
+            <button>305</button>
           </td>
           <td>
-            <button>6</button>
+            <button>306</button>
           </td>
         </tr>
         <tr>
@@ -103,143 +102,143 @@ const Hoist = ({ flags, setFlags }) => {
                 });
               }}
             >
-              1
+              401
             </button>
           </td>
           <td>
-            <button>2</button>
+            <button>402</button>
           </td>
           <td>
-            <button>3</button>
+            <button>403</button>
           </td>
           <td>
-            <button>4</button>
+            <button>404</button>
           </td>
           <td>
-            <button>5</button>
+            <button>405</button>
           </td>
           <td>
-            <button>6</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button>1</button>
-          </td>
-          <td>
-            <button>2</button>
-          </td>
-          <td>
-            <button>3</button>
-          </td>
-          <td>
-            <button>4</button>
-          </td>
-          <td>
-            <button>5</button>
-          </td>
-          <td>
-            <button>6</button>
+            <button>406</button>
           </td>
         </tr>
         <tr>
           <td>
-            <button>1</button>
+            <button>501</button>
           </td>
           <td>
-            <button>2</button>
+            <button>502</button>
           </td>
           <td>
-            <button>3</button>
+            <button>503</button>
           </td>
           <td>
-            <button>4</button>
+            <button>504</button>
           </td>
           <td>
-            <button>5</button>
+            <button>505</button>
           </td>
           <td>
-            <button>6</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button>1</button>
-          </td>
-          <td>
-            <button>2</button>
-          </td>
-          <td>
-            <button>3</button>
-          </td>
-          <td>
-            <button>4</button>
-          </td>
-          <td>
-            <button>5</button>
-          </td>
-          <td>
-            <button>6</button>
+            <button>506</button>
           </td>
         </tr>
         <tr>
           <td>
-            <button>1</button>
+            <button>601</button>
           </td>
           <td>
-            <button>2</button>
+            <button>602</button>
           </td>
           <td>
-            <button>3</button>
+            <button>603</button>
           </td>
           <td>
-            <button>4</button>
+            <button>604</button>
           </td>
           <td>
-            <button>5</button>
+            <button>605</button>
           </td>
           <td>
-            <button>6</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button>1</button>
-          </td>
-          <td>
-            <button>2</button>
-          </td>
-          <td>
-            <button>3</button>
-          </td>
-          <td>
-            <button>4</button>
-          </td>
-          <td>
-            <button>5</button>
-          </td>
-          <td>
-            <button>6</button>
+            <button>606</button>
           </td>
         </tr>
         <tr>
           <td>
-            <button>1</button>
+            <button>701</button>
           </td>
           <td>
-            <button>2</button>
+            <button>702</button>
           </td>
           <td>
-            <button>3</button>
+            <button>703</button>
           </td>
           <td>
-            <button>4</button>
+            <button>704</button>
           </td>
           <td>
-            <button>5</button>
+            <button>705</button>
           </td>
           <td>
-            <button>6</button>
+            <button>706</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button>801</button>
+          </td>
+          <td>
+            <button>802</button>
+          </td>
+          <td>
+            <button>803</button>
+          </td>
+          <td>
+            <button>804</button>
+          </td>
+          <td>
+            <button>805</button>
+          </td>
+          <td>
+            <button>806</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button>901</button>
+          </td>
+          <td>
+            <button>902</button>
+          </td>
+          <td>
+            <button>903</button>
+          </td>
+          <td>
+            <button>904</button>
+          </td>
+          <td>
+            <button>905</button>
+          </td>
+          <td>
+            <button>906</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button>1001</button>
+          </td>
+          <td>
+            <button>1002</button>
+          </td>
+          <td>
+            <button>1003</button>
+          </td>
+          <td>
+            <button>1004</button>
+          </td>
+          <td>
+            <button>1005</button>
+          </td>
+          <td>
+            <button>1006</button>
           </td>
         </tr>
       </table>
