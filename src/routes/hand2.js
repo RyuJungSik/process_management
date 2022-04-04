@@ -26,19 +26,19 @@ const Hand2 = ({ flags, setFlags }) => {
     if (type === 0)
       return (
         <td>
-          <>101</>
+          <>201</>
         </td>
       );
     else if (type === 1)
       return (
         <td id="handChange2">
-          <>101</>
+          <>201</>
         </td>
       );
     else
       return (
         <td id="handChange1">
-          <>101</>
+          <>201</>
         </td>
       );
   };
@@ -47,19 +47,19 @@ const Hand2 = ({ flags, setFlags }) => {
     if (type === 0)
       return (
         <td>
-          <>101</>
+          <>301</>
         </td>
       );
     else if (type === 1)
       return (
         <td id="handChange2">
-          <>101</>
+          <>301</>
         </td>
       );
     else
       return (
         <td id="handChange1">
-          <>101</>
+          <>301</>
         </td>
       );
   };
@@ -68,19 +68,19 @@ const Hand2 = ({ flags, setFlags }) => {
     if (type === 0)
       return (
         <td>
-          <>101</>
+          <>401</>
         </td>
       );
     else if (type === 1)
       return (
         <td id="handChange2">
-          <>101</>
+          <>401</>
         </td>
       );
     else
       return (
         <td id="handChange1">
-          <>101</>
+          <>401</>
         </td>
       );
   };
